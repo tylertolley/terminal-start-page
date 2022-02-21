@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="themes/moonlightii.css">
+    <script async type="text/javascript" src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fira Code" rel="stylesheet">
+    <title>New Tab</title>
+  </head>
+
+  <body>
+    <p id="newtab"><span>[user@pc ~]$ </span>newtab</p>
+
+    <nav>
+      <ul id="social">
+        <li id="s">social</li>
+        <li><a href="https://www.reddit.com">reddit</a></li>
+        <li><a href="https://www.twitter.com">twitter</a></li>
+        <li><a href="https://www.discord.com/app">discord</a></li>
+      </ul>
+
+      <ul id="watch">
+        <li id="w">watch</li>
+        <li><a href="https://www.youtube.com">youtube</a></li>
+        <li><a href="https://www.netflix.com">netflix</a></li>
+        <li><a href="https://app.plex.tv/web/app">plex</a></li>
+      </ul>
+
+      <ul id="dev">
+        <li id="d">dev</li>
+        <li><a href="https://github.com/explore">github</a></li>
+        <li><a href="https://dev.to">dev.to</a></li>
+        <li><a href="https://stackoverflow.com/questions">stack</a></li>
+      </ul>
+
+      <ul id="linux">
+        <li id="l">linux</li>
+        <li><a href="https://wiki.archlinux.org">wiki</a></li>
+        <li><a href="https://aur.archlinux.org">aur</a></li>
+        <li><a href="https://store.kde.org">kde</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <form id="search-form" method="get" action="https://www.google.com/search?q=">
+        <div class="padding-top-15">
+          <span>[user@pc ~]$ </span> <input type="search" id="search-input" autocomplete="off" name="q" autofocus>
+        </div>
+      </form>
+    </div>
+    <div id="status-bar">
+      <div id="chrevron-left" class="left">
+        <span id="time"></span>
+      </div>
+    <div id="chrevron-right" class="left">
+      <img id="search-icon"src="../assets/icons/goog.svg" class="invert">
+    </div>
+  </div>
+  </body>
+</html>

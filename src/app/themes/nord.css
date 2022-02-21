@@ -1,0 +1,11 @@
+@import '../../styles.css';
+
+body {
+	--primaryColor: #2e3440;
+	--secondaryColor: #eceff4;
+	--accent1: #bf616a;
+	--accent2: #d08770;
+	--accent3: #ebcb8b;
+	--accent4: #a3be8c;
+	--accent5: #b48ead;
+}
